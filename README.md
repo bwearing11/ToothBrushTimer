@@ -5,7 +5,7 @@ Code for a timer used with a pico pi to make a 2 minute timer so I brush my teet
 - [Raspberry Pi Pico](https://littlebirdelectronics.com.au/products/raspberry-pi-pico-raspberry-pi-pico-with-headers-microusb-cable)
 - [Waveshare 3.5inch Touch Display Module for Raspberry Pi Pico](https://littlebirdelectronics.com.au/products/3-5inch-touch-display-module-for-raspberry-pi-pico-65k-colours-480-320-spi)
 
-# Files
+# Repo Structure
 
 ## testScripts
 Includes all of the scripts used during initial testing
