@@ -95,20 +95,29 @@ display.fill_rect(0, 0, display.width, display.height, BLACK)
 # Countdown loop (2:00 minutes)
 # ------------------------
 total_seconds = 2 * 60
+last_tick = time.ticks_ms()  # record the starting time
 
 while total_seconds >= 0:
-    mins = total_seconds // 60
-    secs = total_seconds % 60
+    # Check how much time has passed
+    now = time.ticks_ms()
+    elapsed = time.ticks_diff(now, last_tick)
 
-    # Prepare string representation
-    str_digits = [str(mins), ':', str(secs // 10), str(secs % 10)]
+    if elapsed >= 1000:  # 1000 ms = 1 second
+        total_seconds -= 1
+        last_tick = time.ticks_add(last_tick, 1000)  # move forward by one second
 
-    # Draw each element in sequence
-    for i, d in enumerate(str_digits):
-        if d == ':':
-            draw_colon(positions[i], START_Y)
-        else:
-            draw_digit(d, positions[i], START_Y)
+        mins = total_seconds // 60
+        secs = total_seconds % 60
 
-    time.sleep(1)
-    total_seconds -= 1
+        # Prepare string representation
+        str_digits = [str(mins), ':', str(secs // 10), str(secs % 10)]
+
+        # Draw each element in sequence
+        for i, d in enumerate(str_digits):
+            if d == ':':
+                draw_colon(positions[i], START_Y)
+            else:
+                draw_digit(d, positions[i], START_Y)
+
+    # Small sleep to reduce CPU usage
+    time.sleep(0.01)
