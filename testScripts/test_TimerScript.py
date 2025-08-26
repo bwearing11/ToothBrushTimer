@@ -97,7 +97,7 @@ display.fill_rect(0, 0, display.width, display.height, BLACK)
 total_seconds = 2 * 60
 last_tick = time.ticks_ms()  # record the starting time
 
-while total_seconds >= 0:
+while total_seconds > 0:
     # Check how much time has passed
     now = time.ticks_ms()
     elapsed = time.ticks_diff(now, last_tick)
