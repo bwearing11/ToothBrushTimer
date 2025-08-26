@@ -23,6 +23,8 @@ Creates and displays a timer that counts down from 2 minutes
 ### ILI9488
 Driver from [PeterMatthias](https://github.com/PeterMatthias/Pico_ILI9488/)
 
+## Design Files
+
 # Todo
 1. Create a stop/start button for the touchscreen
 2. Test touch implementation from PeterMatthias' driver
