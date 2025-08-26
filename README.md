@@ -37,6 +37,6 @@ Driver from [PeterMatthias](https://github.com/PeterMatthias/Pico_ILI9488/)
 8. Enjoy your dental hygiene
 
 ### Potential features
-- Ability to adjust timer length
+- Ability to adjust timer length OR have the timer run into negative numbers
 - Blinking timer digits when it reaches zero
 - Adding a small speaker to make a little chime when the time is up
