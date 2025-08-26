@@ -22,9 +22,10 @@ Driver from [PeterMatthias](https://github.com/PeterMatthias/Pico_ILI9488/)
 
 # Todo
 1. Create a stop/start button for the touchscreen
-2. Find a right angle micro usb connector for power
-3. Implement stop/start functionality with new button
-4. Find a way to power on/off the backlight
-5. Design and print a case for the display and pi
-6. Wrap all of the code up nicely and create a main.py
-7. Enjoy your dental hygiene
+2. Test touch implementation from PeterMatthias' driver
+3. Find a right angle micro usb connector for power
+4. Implement stop/start functionality with new button
+5. Find a way to power on/off the backlight
+6. Design and print a case for the display and pi
+7. Wrap all of the code up nicely and create a main.py
+8. Enjoy your dental hygiene
