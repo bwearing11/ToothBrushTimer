@@ -7,6 +7,8 @@ Code for a timer used with a Pico Pi to make a 2 minute timer so I brush my teet
 
 # Other tools used
 - Development in Thonny for interfacing with Pico Pi
+- Case design in AutoCAD (design files to be added)
+- [Display datasheet](https://www.waveshare.com/w/upload/2/2d/ILI9488_Data_Sheet.pdf)
 
 # Repo Structure
 
