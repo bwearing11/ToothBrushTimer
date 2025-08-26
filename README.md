@@ -14,11 +14,11 @@ Fills a small rectangle in the bottom left of the screen
 ### test_TimerScript.py
 Creates and displays a timer that counts down from 2 minutes
 
-## driver
+## Driver
 ### ILI9488
 Driver from [PeterMatthias](https://github.com/PeterMatthias/Pico_ILI9488/)
 
-
+<br><br><br><br>
 
 # Todo
 1. Create a stop/start button for the touchscreen
