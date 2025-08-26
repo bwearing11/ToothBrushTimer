@@ -1,5 +1,5 @@
 # ToothBrushTimer
-Code for a timer used with a Pico Pi to make a 2 minute timer so I brush my teeth long enough
+Code for a timer used with a Pico Pi and MicroPython to make a 2 minute timer so I brush my teeth long enough
 
 # Hardware
 - [Raspberry Pi Pico](https://littlebirdelectronics.com.au/products/raspberry-pi-pico-raspberry-pi-pico-with-headers-microusb-cable)
